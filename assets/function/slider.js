@@ -79,7 +79,7 @@ var intervalID = setInterval(changeSlide,Time)
 var setActiveSlide = (lastIndex, currentIndex)=>{
 // variabe pour récuperer les dots //
 var spans = document.querySelectorAll(".dots span")
-spans[lastIndex] ? classList.remove("active") : null
-spans[currentIndex] ? classList.add("active") : null
+spans[lastIndex] ? spans[lastIndex].classList.remove("active") : null
+spans[currentIndex] ? spans[currentIndex].classList.add("active") : null
 
 }
