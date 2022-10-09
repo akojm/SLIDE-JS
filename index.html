@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDER EN JS</title>
+    <link rel="stylesheet" href="./assets/framework/framework.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="flex v-center">
+                <li><a href="" >home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   <!-- <h1>Créer un slide avec JS</h1> --> 
+    <div class="slider-container relative">
+        <div class="slide fade relative">
+            <div class="slide-image">
+                <img src="./assets/images/woman-gcfef623f2_1280.jpg" alt="" srcset="">
+            </div>
+            <div class="slide-details box absolute">
+              <div class="slide-title">PRENDRE RDV EN LIGNE AVEC NOTRE EQUIPE</div>
+              <div class="slide-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos labore, possimus vitae unde quisquam incidunt reprehenderit, sed perspiciatis corrupti adipisci voluptatibus dolor. Velit tenetur nemo autem vel illo eaque officia.</div>
+              <button class="slide-button">PRENDRE RDV</button>
+            </div>
+        </div>
+        <div class="slide fade relative">
+            <div class="slide-image">
+                <img src="./assets/images/woman-gc393cd13a_1280.jpg" alt="" srcset="">
+            </div>
+            <div class="slide-details box absolute">
+              <div class="slide-title">PROFITEZ DE NOS BONS PLANS !</div>
+              <div class="slide-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos labore, possimus vitae unde quisquam incidunt reprehenderit, sed perspiciatis corrupti adipisci voluptatibus dolor. Velit tenetur nemo autem vel illo eaque officia.</div>
+              <button class="slide-button">CLIQUEZ ICI</button>
+            </div>
+        </div>
+        <div class="slide fade relative">
+            <div class="slide-image">
+                <img src="./assets/images/woman-g60847083a_1280.jpg" alt="" srcset="">
+            </div>
+            <div class="slide-details box absolute">
+              <div class="slide-title">DES CHOIX DE QUALITÉ !</div>
+              <div class="slide-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos labore, possimus vitae unde quisquam incidunt reprehenderit, sed perspiciatis corrupti adipisci voluptatibus dolor. Velit tenetur nemo autem vel illo eaque officia.</div>
+              <button class="slide-button">CLIQUEZ ICI</button>
+            </div>
+        </div>
+        <div class="slide fade relative">
+            <div class="slide-image">
+                <img src="./assets/images/people-g1919a1159_1280.jpg" alt="" srcset="">
+            </div>
+            <div class="slide-details box absolute">
+              <div class="slide-title">VOS ACHATS EN UN CLICK !</div>
+              <div class="slide-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos labore, possimus vitae unde quisquam incidunt reprehenderit, sed perspiciatis corrupti adipisci voluptatibus dolor. Velit tenetur nemo autem vel illo eaque officia.</div>
+              <button class="slide-button">CLIQUEZ ICI</button>
+            </div>
+        </div>
+     
+         <!-- Next et previous buttons -->
+         
+             <a class="prev absolute" id="prev">&#10094;</a>
+              <a class="next absolute" id="next">&#10095;</a>
+   
+    <div class="text-center dots absolute" id="dots">
+       <!--
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+       --> 
+       
+    </div>
+   
+    </div>
+    <script src="./assets/function/slider.js"></script> 
+    <script src="./assets/function/listener.js"></script>
+    <script src="./assets/function/main.js"></script>
+</body>
+</html>
