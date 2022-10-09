@@ -19,6 +19,7 @@ ul{
 }
 ul li{
     padding: 15px;
+    text-transform: capitalize;
 }
 .slider-container{
     max-width: 100%;
